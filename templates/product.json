@@ -8,6 +8,11 @@
           "settings": {
           }
         },
+        "14e3d219-a057-4691-9838-98f476d88717": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -24,6 +29,18 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
+          }
+        },
+        "c4b426c6-4c8c-4f4e-accb-dbce77fcf76e": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "none",
+            "heading_1": "Free delivery in Switzerland 🇨🇭",
+            "icon_2": "truck",
+            "heading_2": "In stock, ready to ship",
+            "icon_3": "none",
+            "heading_3": ""
           }
         },
         "buy_buttons": {
@@ -83,9 +100,11 @@
       },
       "block_order": [
         "title",
+        "14e3d219-a057-4691-9838-98f476d88717",
         "caption",
         "price",
         "variant_picker",
+        "c4b426c6-4c8c-4f4e-accb-dbce77fcf76e",
         "buy_buttons",
         "description",
         "collapsible-row-0",
