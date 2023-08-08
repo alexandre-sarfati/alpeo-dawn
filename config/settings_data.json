@@ -114,7 +114,7 @@
     "cart_drawer_collection": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/logo-alpeo-with-payment.jpg",
     "checkout_logo_size": "large",
-    "checkout_accent_color": "#7d30dd",
+    "checkout_accent_color": "#121212",
     "checkout_button_color": "#7d30dd",
     "sections": {
       "main-password-header": {
