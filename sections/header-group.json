@@ -27,9 +27,7 @@
       }
     },
     "header-legal-list": {
-      "type": "header-legal-list",
-      "settings": {
-      }
+      "type": "header-legal-list"
     },
     "header": {
       "type": "header",
