@@ -198,6 +198,10 @@
     {%- endif -%}
 
     {%- liquid
+      render 'header-legal-list'
+    %}
+
+    {%- liquid
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
           render 'header-dropdown-menu'
