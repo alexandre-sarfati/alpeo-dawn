@@ -1,4 +1,18 @@
-<div style="width: 100%; text-align: center">
+{%- style -%}
+  .section-legal-list {
+    width: 100%;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-legal-list {
+      display: none;
+      visibility: hidden;
+    }
+  }
+{%- endstyle -%}
+
+<div class="section-legal-list">
   <ul class="list-menu list-menu--inline">
     <li>
       <a
