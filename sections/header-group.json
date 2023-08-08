@@ -28,8 +28,11 @@
     },
     "95717ec8-e527-4395-a369-e40cf8b3ab81": {
       "type": "custom-liquid",
+      "custom_css": [
+
+      ],
       "settings": {
-        "custom_liquid": "<ul class=\"list-menu list-menu--inline\">\n  <li>\n    <a href=\"\/fr\/policies\/privacy-policy\" class=\"header__menu-item list-menu__item link link--text focus-inset\">\n      Privacy Policy\n\n    <\/a>\n  <\/li>\n  <li>\n    <a href=\"\/fr\/policies\/refund-policy\" class=\"header__menu-item list-menu__item link link--text focus-inset\">\n      Refund Policy\n    <\/a>\n  <\/li>\n  <li>\n    <a href=\"\/fr\/policies\/shipping-policy\" class=\"header__menu-item list-menu__item link link--text focus-inset\">\n\n      Shipping Policy\n\n    <\/a>\n  <\/li>\n  <li>\n    <a href=\"\/fr\/policies\/terms-of-service\" class=\"header__menu-item list-menu__item link link--text focus-inset\">\n      Terms of Service\n\n    <\/a>\n  <\/li>\n  <li>\n    <a href=\"\/fr\/pages\/company-details\" class=\"header__menu-item list-menu__item link link--text focus-inset\">\n      Company details\n    <\/a>\n  <\/li>\n<\/ul>",
+        "custom_liquid": "<div style=\"width: 100%; text-align: center\">\n  <ul class=\"list-menu list-menu--inline\">\n    <li>\n      <a\n        href=\"\/fr\/policies\/privacy-policy\"\n        class=\"header__menu-item list-menu__item link link--text focus-inset\"\n      >\n        Privacy Policy\n      <\/a>\n    <\/li>\n    <li>\n      <a\n        href=\"\/fr\/policies\/refund-policy\"\n        class=\"header__menu-item list-menu__item link link--text focus-inset\"\n      >\n        Refund Policy\n      <\/a>\n    <\/li>\n    <li>\n      <a\n        href=\"\/fr\/policies\/shipping-policy\"\n        class=\"header__menu-item list-menu__item link link--text focus-inset\"\n      >\n        Shipping Policy\n      <\/a>\n    <\/li>\n    <li>\n      <a\n        href=\"\/fr\/policies\/terms-of-service\"\n        class=\"header__menu-item list-menu__item link link--text focus-inset\"\n      >\n        Terms of Service\n      <\/a>\n    <\/li>\n    <li>\n      <a\n        href=\"\/fr\/pages\/company-details\"\n        class=\"header__menu-item list-menu__item link link--text focus-inset\"\n      >\n        Company details\n      <\/a>\n    <\/li>\n  <\/ul>\n<\/div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
