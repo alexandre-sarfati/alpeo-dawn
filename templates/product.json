@@ -90,12 +90,6 @@
             "content": "",
             "page": ""
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -110,8 +104,7 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-3",
-        "share"
+        "collapsible-row-3"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -128,50 +121,15 @@
         "padding_bottom": 12
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/safe-delivery.svg",
+            "title": "Safe delivery",
+            "text": "<p>We have already delivered to hundreds of customers across the country, our orders are processed within 48 hours of ordering.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -179,8 +137,19 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/satisfaction.svg",
+            "title": "Quality materials",
+            "text": "<p>Our products are made of high quality materials and have been carefully selected for their durability.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bbdacaca-8e3b-476b-9f58-fd2de2356357": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quality-materials.svg",
+            "title": "100% satisfied!",
+            "text": "<p>We have already sent hundreds of customers around the country. If you are not satisfied with the product, you can send it back to contact+us@alpeo.ch<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -188,15 +157,16 @@
       },
       "block_order": [
         "column-0",
-        "column-1"
+        "column-1",
+        "bbdacaca-8e3b-476b-9f58-fd2de2356357"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
+        "columns_desktop": 3,
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -205,6 +175,22 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "1691528709b3a2fa72": {
+      "type": "apps",
+      "blocks": {
+        "b745cb57-24c6-4ad2-b4b9-efc6e20449d9": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b745cb57-24c6-4ad2-b4b9-efc6e20449d9"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "related-products": {
@@ -228,8 +214,8 @@
   },
   "order": [
     "main",
-    "image-with-text",
     "multicolumn",
+    "1691528709b3a2fa72",
     "related-products"
   ]
 }
