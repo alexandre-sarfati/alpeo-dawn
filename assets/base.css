@@ -2779,10 +2779,6 @@ details[open] > .header__submenu {
   display: none;
 }
 
-.header__inline-menu .list-menu--inline {
-  float: right;
-}
-
 .header--top-center .header__inline-menu,
 .header--top-center .header__heading-link {
   margin-left: 0;
