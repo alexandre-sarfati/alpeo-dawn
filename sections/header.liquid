@@ -167,6 +167,10 @@
       endif
     -%}
 
+    {%- liquid
+      render 'header-legal-list'
+    %}
+    
     {%- if section.settings.logo_position != 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
@@ -196,10 +200,6 @@
         </h1>
       {%- endif -%}
     {%- endif -%}
-
-    {%- liquid
-      render 'header-legal-list'
-    %}
 
     {%- liquid
       if section.settings.menu != blank
