@@ -41,8 +41,8 @@
         "e9c9c0c4-aad4-4776-a2bb-4e66e5eb19c9"
       ],
       "settings": {
-        "color_scheme": "accent-1",
-        "newsletter_enable": false,
+        "color_scheme": "scheme-1",
+        "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
         "show_social": false,
