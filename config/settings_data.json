@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Black_logo_-_no_background_6531204e-af00-4416-9a7d-e347353829e0.png",
+    "logo": "shopify://shop_images/Black_logo_-_no_background_6531204e-af00-4416-9a7d-e347353829e0.png",
     "logo_width": 200,
-    "favicon": "shopify:\/\/shop_images\/favicon-32x32.png",
+    "favicon": "shopify://shop_images/favicon-32x32.png",
     "type_header_font": "poppins_n6",
     "heading_scale": 115,
     "type_body_font": "poppins_n4",
@@ -20,7 +29,7 @@
     "buttons_shadow_blur": 5,
     "variant_pills_border_thickness": 2,
     "variant_pills_border_opacity": 100,
-    "variant_pills_radius": 0,
+    "variant_pills_radius": 40,
     "variant_pills_shadow_opacity": 0,
     "variant_pills_shadow_horizontal_offset": 0,
     "variant_pills_shadow_vertical_offset": 4,
@@ -113,7 +122,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logo-alpeo-with-payment.jpg",
+    "checkout_logo_image": "shopify://shop_images/logo-alpeo-with-payment.jpg",
     "checkout_logo_size": "large",
     "checkout_accent_color": "#121212",
     "checkout_button_color": "#7d30dd",
@@ -131,40 +140,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
-      "14952540001915115444": {
-        "type": "shopify:\/\/apps\/upcart-cart-drawer\/blocks\/app-embed\/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "10312807297210203588": {
-        "type": "shopify:\/\/apps\/aftersell-post-purchase-upsell\/blocks\/utm-triggers\/509ec35d-0632-4dfc-a105-fa799cd9d149",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "12120936241911852800": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": true,
-        "settings": {
-          "position": "right"
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
