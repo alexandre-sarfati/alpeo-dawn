@@ -2021,6 +2021,10 @@ input[type='checkbox'] {
   visibility: hidden;
 }
 
+.product-variant-label {
+  border-radius: 100%;
+}
+
 /* component-modal */
 .modal__toggle {
   list-style-type: none;
