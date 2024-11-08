@@ -300,6 +300,10 @@ cart-drawer-items {
   margin-top: 1rem;
 }
 
+.cart-drawer__footer {
+  padding-bottom: 2rem;
+}
+
 .cart-drawer .totals {
   justify-content: space-between;
 }
