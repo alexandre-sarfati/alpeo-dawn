@@ -35,6 +35,10 @@
         "enable_language_selector": false
       }
     },
+    "legal-list": {
+      "type": "header-legal-list",
+      "settings": {}
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -57,6 +61,7 @@
   },
   "order": [
     "announcement-bar",
+    "legal-list",
     "header"
   ]
 }
