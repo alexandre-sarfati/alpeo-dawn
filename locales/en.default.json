@@ -228,7 +228,8 @@
       "privacy-policy": "Privacy Policy",
       "refund-policy": "Refund Policy",
       "shipping-policy": "Shipping Policy",
-      "terms-of-service": "Terms of Service"
+      "terms-of-service": "Terms of Service",
+      "company-details": "Company details"
     },
     "search": {
       "no_results": "No results found for “{{ terms }}”. Check the spelling or use a different word or phrase.",
