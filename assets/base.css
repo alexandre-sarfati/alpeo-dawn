@@ -13,6 +13,13 @@
   visibility: hidden !important;
 }
 
+.zrx-sticky-atc-main-button {
+  font-size: 1.3rem;
+  letter-spacing: .3em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
