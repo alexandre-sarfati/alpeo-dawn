@@ -21,6 +21,10 @@
   flex: none !important;
 }
 
+.zrx-sticky-atc-product-title-price-wrapper {
+  width: 100% !important;
+}
+
 .zrx-sticky-atc-main-button {
   font-size: 1.3rem;
   letter-spacing: .3em;
