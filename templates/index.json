@@ -156,7 +156,7 @@
             "maxWidth": 1100,
             "desktopFontSize": 32,
             "mobileFontSize": 20,
-            "maxNumberOfCharacters": 100,
+            "maxNumberOfCharacters": 200,
             "quoteMarkIcon": "style-1",
             "reviewerNameColor": "#000000",
             "textColor": "#000000",
