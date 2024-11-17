@@ -16,9 +16,20 @@
           "type": "title",
           "settings": {}
         },
-        "judge_me_reviews_preview_badge_gcyhtU": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "loox_reviews_loox_rating_nWeRUy": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
         },
         "caption": {
           "type": "text",
@@ -70,7 +81,7 @@
       },
       "block_order": [
         "title",
-        "judge_me_reviews_preview_badge_gcyhtU",
+        "loox_reviews_loox_rating_nWeRUy",
         "caption",
         "price",
         "variant_picker",
@@ -110,16 +121,23 @@
         "include_margins": true
       }
     },
-    "173160638553b7fd57": {
+    "1731861056ad5bf25d": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_review_widget_caA67h": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "loox_reviews_loox_dynamic_section_ha4Hct": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
         }
       },
       "block_order": [
-        "judge_me_reviews_review_widget_caA67h"
+        "loox_reviews_loox_dynamic_section_ha4Hct"
       ],
       "settings": {
         "include_margins": true
@@ -210,7 +228,7 @@
   "order": [
     "main",
     "1731606406686f445b",
-    "173160638553b7fd57",
+    "1731861056ad5bf25d",
     "multicolumn",
     "1691528709b3a2fa72",
     "related-products"
