@@ -161,7 +161,7 @@
             "reviewerNameColor": "#000000",
             "textColor": "#000000",
             "starsColor": "",
-            "quotesIconColor": "#EAEAEA",
+            "quotesIconColor": "#eaeaea",
             "arrows_iconColor": "#000000",
             "arrows_hideOnMobile": true,
             "pagination_active": true,
@@ -179,6 +179,12 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "17318619813601a192": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -186,6 +192,7 @@
     "featured_collection",
     "multicolumn",
     "1691520987d9639362",
-    "1731861851a23a9dcc"
+    "1731861851a23a9dcc",
+    "17318619813601a192"
   ]
 }
