@@ -121,7 +121,7 @@
             "maxWidth": 1600,
             "borderRadius": 30,
             "itemsPerView": 5,
-            "mobileItemsPerView": 3,
+            "mobileItemsPerView": 1,
             "maxNumberOfCharacters": 100,
             "imageRatio": "0.72",
             "reviewerNameColor": "#000000",
