@@ -8,6 +8,11 @@
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
 }
 
+.variant-selects-template--20297910386972__main .form__label {
+  display: none !important;
+  visibility: hidden !important;
+}
+
 .translation-disclaimer-container {
   display: none !important;
   visibility: hidden !important;
