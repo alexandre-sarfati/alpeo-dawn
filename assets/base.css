@@ -13,8 +13,8 @@
   visibility: hidden !important;
 }
 
-input.UpcartDesignSettings__button, .UpcartDesignSettings__button{
-  background-color: #000 !important;
+input.UpcartDesignSettings__button, .UpcartDesignSettings__button {
+  background: #000000 !important;
 }
 
 .translation-disclaimer-container {
