@@ -299,9 +299,12 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', function () {
-        // Only apply the redirect if the user is on the main domain (alpeo.ch)
+        // Get the current hostname, path, and search parameters
         const currentDomain = window.location.hostname;
+        const currentPath = window.location.pathname;
+        const currentSearch = window.location.search; // Includes query parameters like "?key=value"
 
+        // Only apply the redirect if the user is on the main domain (alpeo.ch)
         if (currentDomain === 'alpeo.ch') {
           // Define language to subdomain mapping
           const languageMapping = {
@@ -316,13 +319,15 @@
           // Extract the primary language code (e.g., "en" from "en-US")
           const languageCode = userLanguage.split('-')[0];
 
-          // Determine the target URL for the language
-          const targetUrl = languageMapping[languageCode];
+          // Determine the target base domain for the language
+          const targetBaseDomain = languageMapping[languageCode];
 
-          // Redirect only if the target URL exists, is not English (main domain),
-          // and is different from the current URL
-          if (targetUrl && languageCode !== 'en' && targetUrl !== window.location.href) {
-            window.location.href = targetUrl;
+          // Redirect only if the target base domain exists and differs from the current domain
+          if (targetBaseDomain && languageCode !== 'en') {
+            const targetUrl = targetBaseDomain + currentPath + currentSearch; // Append path and search to target domain
+            if (window.location.href !== targetUrl) {
+              window.location.href = targetUrl; // Perform the redirect
+            }
           }
         }
       });
