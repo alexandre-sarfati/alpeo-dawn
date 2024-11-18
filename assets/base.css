@@ -13,6 +13,10 @@
   visibility: hidden !important;
 }
 
+.UpcartDesignSettings__button {
+  background-color: #000 !important;
+}
+
 .translation-disclaimer-container {
   display: none !important;
   visibility: hidden !important;
