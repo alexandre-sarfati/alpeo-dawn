@@ -296,6 +296,37 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // Only apply the redirect if the user is on the main domain (alpeo.ch)
+        const currentDomain = window.location.hostname;
+
+        if (currentDomain === 'alpeo.ch') {
+          // Define language to subdomain mapping
+          const languageMapping = {
+            en: 'https://alpeo.ch', // English stays on the main domain
+            fr: 'https://fr.alpeo.ch', // French goes to the fr subdomain
+            de: 'https://de.alpeo.ch', // German goes to the de subdomain
+          };
+
+          // Get browser's preferred language
+          const userLanguage = navigator.language || navigator.userLanguage;
+
+          // Extract the primary language code (e.g., "en" from "en-US")
+          const languageCode = userLanguage.split('-')[0];
+
+          // Determine the target URL for the language
+          const targetUrl = languageMapping[languageCode];
+
+          // Redirect only if the target URL exists, is not English (main domain),
+          // and is different from the current URL
+          if (targetUrl && languageCode !== 'en' && targetUrl !== window.location.href) {
+            window.location.href = targetUrl;
+          }
+        }
+      });
+    </script>
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
