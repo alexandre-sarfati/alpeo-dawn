@@ -13,7 +13,7 @@
   visibility: hidden !important;
 }
 
-.UpcartDesignSettings__button {
+input.UpcartDesignSettings__button, .UpcartDesignSettings__button{
   background-color: #000 !important;
 }
 
