@@ -240,7 +240,7 @@ product-info {
 .product__info-container .product-form,
 .product__info-container .product__description,
 .product__info-container .icon-with-text {
-  margin: 1rem 0;
+  margin: 2.5rem 0;
 }
 
 .product__text {
@@ -1282,7 +1282,6 @@ a.product__text {
 .icon-with-text__item {
   display: flex;
   align-items: center;
-  text-align: center;
 }
 
 .icon-with-text--horizontal .icon-with-text__item {
