@@ -118,7 +118,7 @@
 .page-width {
   max-width: var(--page-width);
   margin: 0 auto;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
