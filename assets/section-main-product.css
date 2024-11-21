@@ -219,8 +219,8 @@ product-info {
   text-align: center;
 }
 
-.product__info-container variant-selects {
-  justify-content: center;
+.product__info-container > variant-selects {
+  display: inline-block;
 }
 
 .product__description {
