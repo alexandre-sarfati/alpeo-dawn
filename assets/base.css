@@ -3323,7 +3323,7 @@ details-disclosure > details {
   }
 
   .scroll-trigger:not(.scroll-trigger--offscreen).animate--fade-in {
-    opacity: 1;
+    opacity: 0.9;
     animation: var(--animation-fade-in);
   }
 
