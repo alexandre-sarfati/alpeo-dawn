@@ -19,8 +19,8 @@
         "loox_reviews_loox_rating_nWeRUy": {
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "contentSize": 14,
-            "pattern": "98% satisfaction - Based on [count] customer reviews",
+            "contentSize": 17,
+            "pattern": "98% satisfaction - [count] customer reviews",
             "hideText": false,
             "alignment": "",
             "layout": "",
