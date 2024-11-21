@@ -221,6 +221,7 @@ product-info {
 
 .product__info-container > variant-selects {
   display: inline-block;
+  margin: 0;
 }
 
 .product__description {
