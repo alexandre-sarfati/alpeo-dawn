@@ -36,8 +36,8 @@
 }
 
 .zrx-sticky-atc-main-button {
-  font-size: 1.3rem;
-  letter-spacing: .3em;
+  font-size: 1.2rem !important;
+  letter-spacing: .2em;
   font-weight: 700;
   text-transform: uppercase;
 }
