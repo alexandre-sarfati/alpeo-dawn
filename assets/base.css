@@ -42,6 +42,11 @@
   text-transform: uppercase;
 }
 
+.zrx-sticky-atc-product-title {
+  text-transform: uppercase;
+  font-weight:500;
+  }
+  
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
