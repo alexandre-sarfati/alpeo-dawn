@@ -219,7 +219,7 @@ product-info {
   text-align: center;
 }
 
-.product__info-container .variant-selects {
+.product__info-container variant-selects {
   justify-content: center;
 }
 
