@@ -1033,7 +1033,6 @@ a.product__text {
   color: rgb(var(--color-foreground));
   cursor: pointer;
   background-color: transparent;
-  border-radius: 0;
   border: 0;
 }
 
