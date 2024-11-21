@@ -1228,7 +1228,6 @@ a.product__text {
 .icon-with-text {
   --icon-size: calc(var(--font-heading-scale) * 3rem);
   --icon-spacing: calc(var(--font-heading-scale) * 1rem);
-  text-align: center;
 }
 
 .icon-with-text--horizontal {
@@ -1283,6 +1282,7 @@ a.product__text {
 .icon-with-text__item {
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .icon-with-text--horizontal .icon-with-text__item {
