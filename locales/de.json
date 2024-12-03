@@ -117,7 +117,7 @@
     "product": {
       "add_to_cart": "In den Warenkorb legen",
       "description": "Beschreibung",
-      "on_sale": "Black Friday 🖤",
+      "on_sale": "Actions de Noël 🎄",
       "quantity": {
         "label": "Anzahl",
         "input_label": "Anzahl von {{ product }}",
